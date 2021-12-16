@@ -38,6 +38,7 @@ int main(int argc, char** argv)
     double h = pow(2, -13);
     std::cout << "h: " << h << std::endl;
     int max_N = 100;
-    lead_e(1, 1, h);
+    double leaded_e = lead_e(1, 1, h);
+    std::cout << "answer: " << leaded_e << std::endl;
     return 0;
 }
