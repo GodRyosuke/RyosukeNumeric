@@ -19,5 +19,5 @@ $ cd build
 $ cmake ..
 $ make
 $ ./euler # euler法でネイピア数導出
-$ ./runge # runge-kutta方でネイピア数導出
+$ ./runge # runge-kutta法でネイピア数導出
 ```
