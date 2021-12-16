@@ -4,6 +4,7 @@
  - 符号理論で使ったやつ
  - euler法サンプル
  - runge-kutta法サンプル
+
 が入っている。
 
 ## eulerとrunge-kuttaについて
