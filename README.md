@@ -12,8 +12,12 @@ installation and tutorials
 ```bash
 $ cd /path/to/desired/dir/
 $ git clone https://github.com/GodRyosuke/RyosukeNumeric.git
-$ cd RyosukeNumeric/build
-$ make # 一応
+$ cd RyosukeNumeric
+$ rm -r build
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
 $ ./euler # euler法でネイピア数導出
 $ ./runge # runge-kutta方でネイピア数導出
 ```
